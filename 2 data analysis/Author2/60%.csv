@@ -1,0 +1,724 @@
+issue_id,aspect_name,subcategory_name
+114,Root Causes,Improper Error State Handling
+114,Symptom,Authentication Failures
+114,Trigger Conditions,Specific login approach
+212,Root Causes,API Misuse
+212,Symptom,Authentication Failures
+212,Trigger Conditions,Specific Input 
+36,Root Causes,Improper State Saving or Restoration
+36,Symptom,Crashes
+36,Trigger Conditions,Specific login approach
+349,Root Causes,Null Object Check Omission
+349,Symptom,Authentication Failures
+349,Trigger Conditions,Specific login approach
+6,Root Causes,Improper Error State Handling
+6,Symptom,Inaccurate error message displayed
+6,Trigger Conditions,Specific Input 
+101,Root Causes,Improper State Saving or Restoration
+101,Symptom,Incorrect Navigation Flow
+101,Trigger Conditions,Orientation change
+57,Root Causes,Improper State Saving or Restoration
+57,Symptom,Account Management function breaks
+57,Trigger Conditions,Account Management Operation
+189,Root Causes,API Misuse
+189,Symptom,Authentication Failures
+189,Trigger Conditions,Specific login approach
+222,Root Causes,API Misuse
+222,Symptom,Account Management function breaks
+222,Trigger Conditions,Account Management Operation
+24,Root Causes,API Misuse
+24,Symptom,Crashes
+24,Trigger Conditions,Specific login approach
+158,Root Causes,Incorrect Branch or State Consequence
+158,Symptom,Authentication Failures
+158,Trigger Conditions,Specific Input 
+158,Trigger Conditions,Specific login approach
+163,Root Causes,Improper Error State Handling
+163,Symptom,Inaccurate error message displayed
+163,Trigger Conditions,Communicating with Cloud failure 
+163,Trigger Conditions,Specific login approach
+58,Root Causes,Lack of Necessary State or Stage
+58,Symptom,Incorrect Navigation Flow
+58,Trigger Conditions,Specific Input 
+58,Trigger Conditions,Specific login approach
+247,Root Causes,Improper Error State Handling
+247,Symptom,Incorrect Navigation Flow
+247,Trigger Conditions,Account Management Operation
+367,Root Causes,Improper State Saving or Restoration
+367,Symptom,Authentication Failures
+367,Trigger Conditions,Specific login approach
+273,Root Causes,Incorrect Branch or State Consequence
+273,Symptom,Incorrect Navigation Flow
+273,Trigger Conditions,Triggered by Any Login Action 
+217,Root Causes,Incorrect Branch or State Consequence
+217,Symptom,Authentication Failures
+217,Trigger Conditions,Settings Change 
+274,Root Causes,Improper Error State Handling
+274,Symptom,Crashes
+274,Trigger Conditions,Specific Input 
+146,Root Causes,Lack of Necessary State or Stage
+146,Symptom,Account Management function breaks
+146,Trigger Conditions,Account Management Operation
+146,Trigger Conditions,Specific login approach
+131,Root Causes,Improper Error State Handling
+131,Symptom,Authentication Failures
+131,Trigger Conditions,Specific login approach
+67,Root Causes,Wrong Environment Dependency
+67,Symptom,Inaccurate error message displayed
+67,Trigger Conditions,Settings Change 
+67,Trigger Conditions,Specific Input 
+337,Root Causes,API Misuse
+337,Symptom,Authentication Failures
+337,Trigger Conditions,Triggered by Any Login Action 
+303,Root Causes,Incorrect Branch or State Consequence
+303,Symptom,Account Management function breaks
+303,Trigger Conditions,Account Management Operation
+345,Root Causes,Incorrect Branch or State Consequence
+345,Symptom,Authentication Failures
+345,Trigger Conditions,Specific Input 
+345,Trigger Conditions,Specific login approach
+210,Root Causes,Incorrect Branch or State Consequence
+210,Symptom,Authentication Failures
+210,Trigger Conditions,Specific Input 
+171,Root Causes,API Misuse
+171,Symptom,Crashes
+171,Trigger Conditions,Specific login approach
+200,Root Causes,Improper Encoding Algorithm
+200,Symptom,Authentication Failures
+200,Trigger Conditions,Specific Input 
+246,Root Causes,Improper Error State Handling
+246,Symptom,Crashes
+246,Trigger Conditions,Specific login approach
+280,Root Causes,API Misuse
+280,Symptom,Authentication Failures
+280,Trigger Conditions,Specific Device
+280,Trigger Conditions,Specific login approach
+177,Root Causes,Lack of Necessary State or Stage
+177,Symptom,Account Management function breaks
+177,Trigger Conditions,Account Management Operation
+177,Trigger Conditions,Communicating with Cloud failure 
+207,Root Causes,Improper State Saving or Restoration
+207,Symptom,Account Management function breaks
+207,Trigger Conditions,Account Management Operation
+118,Root Causes,API Misuse
+118,Symptom,Account Management function breaks
+118,Trigger Conditions,Account Management Operation
+118,Trigger Conditions,Communicating with Cloud failure 
+32,Root Causes,API Misuse
+32,Symptom,Authentication Failures
+32,Trigger Conditions,Triggered by Any Login Action 
+258,Root Causes,API Misuse
+258,Symptom,Authentication Failures
+258,Trigger Conditions,Specific Input 
+258,Trigger Conditions,Specific login approach
+326,Root Causes,API Misuse
+326,Symptom,Crashes
+326,Trigger Conditions,Specific Device
+243,Root Causes,Improper Error State Handling
+243,Symptom,Inaccurate error message displayed
+243,Trigger Conditions,Account Management Operation
+243,Trigger Conditions,Specific Input 
+53,Root Causes,Lack of Necessary State or Stage
+53,Symptom,Incorrect Navigation Flow
+53,Trigger Conditions,Specific login approach
+26,Root Causes,API Misuse
+26,Symptom,Crashes
+26,Trigger Conditions,Specific login approach
+140,Root Causes,API Misuse
+140,Symptom,Authentication Failures
+140,Trigger Conditions,Specific login approach
+354,Root Causes,Null Object Check Omission
+354,Symptom,Crashes
+354,Trigger Conditions,Account Management Operation
+75,Root Causes,Improper Encoding Algorithm
+75,Symptom,Authentication Failures
+75,Trigger Conditions,Specific Input 
+348,Root Causes,Improper Error State Handling
+348,Symptom,Inaccurate error message displayed
+348,Trigger Conditions,Communicating with Cloud failure 
+44,Root Causes,Improper Error State Handling
+44,Symptom,Incorrect Navigation Flow
+44,Trigger Conditions,Specific Input 
+169,Root Causes,API Misuse
+169,Symptom,Authentication Failures
+169,Trigger Conditions,Specific Device
+9,Root Causes,Null Object Check Omission
+9,Symptom,Authentication Failures
+9,Trigger Conditions,Specific login approach
+124,Root Causes,Lack of Necessary State or Stage
+124,Symptom,Authentication Failures
+124,Trigger Conditions,Specific Device
+124,Trigger Conditions,Specific login approach
+11,Root Causes,Improper Encoding Algorithm
+11,Symptom,Account Management function breaks
+11,Trigger Conditions,Specific Input 
+59,Root Causes,Lack of Necessary State or Stage
+59,Symptom,Account Management function breaks
+59,Trigger Conditions,Account Management Operation
+59,Trigger Conditions,Specific Input 
+59,Trigger Conditions,Specific login approach
+2,Root Causes,Improper State Saving or Restoration
+2,Symptom,Authentication Failures
+2,Trigger Conditions,Orientation change
+362,Root Causes,Null Object Check Omission
+362,Symptom,Crashes
+362,Trigger Conditions,Specific Input 
+362,Trigger Conditions,Specific login approach
+176,Root Causes,Null Object Check Omission
+176,Symptom,Crashes
+176,Trigger Conditions,Triggered by Any Login Action 
+183,Root Causes,Improper State Saving or Restoration
+183,Symptom,Crashes
+183,Trigger Conditions,Account Management Operation
+208,Root Causes,Wrong Environment Dependency
+208,Symptom,Authentication Failures
+208,Trigger Conditions,Specific Device
+322,Root Causes,Improper State Saving or Restoration
+322,Symptom,Crashes
+322,Trigger Conditions,Account Management Operation
+96,Root Causes,Lack of Necessary State or Stage
+96,Symptom,Crashes
+96,Trigger Conditions,Account Management Operation
+72,Root Causes,Lack of Necessary State or Stage
+72,Symptom,Authentication Failures
+72,Trigger Conditions,Specific login approach
+275,Root Causes,Null Object Check Omission
+275,Symptom,Crashes
+275,Trigger Conditions,Communicating with Cloud failure 
+223,Root Causes,Lack of Necessary State or Stage
+223,Symptom,Incorrect Navigation Flow
+223,Trigger Conditions,Settings Change 
+102,Root Causes,Lack of Necessary State or Stage
+102,Symptom,Crashes
+102,Trigger Conditions,Specific login approach
+5,Root Causes,Wrong Environment Dependency
+5,Symptom,Authentication Failures
+5,Trigger Conditions,Specific login approach
+231,Root Causes,Improper State Saving or Restoration
+231,Symptom,Crashes
+231,Trigger Conditions,Account Management Operation
+105,Root Causes,Improper State Saving or Restoration
+105,Symptom,Incorrect Navigation Flow
+105,Trigger Conditions,Communicating with Cloud failure 
+105,Trigger Conditions,Specific login approach
+148,Root Causes,Incorrect Branch or State Consequence
+148,Symptom,Incorrect Navigation Flow
+148,Trigger Conditions,Account Management Operation
+173,Root Causes,Wrong Environment Dependency
+173,Symptom,Authentication Failures
+173,Trigger Conditions,Account Management Operation
+167,Root Causes,Wrong Environment Dependency
+167,Symptom,Authentication Failures
+167,Trigger Conditions,Communicating with Cloud failure 
+167,Trigger Conditions,Specific login approach
+45,Root Causes,Lack of Necessary State or Stage
+45,Symptom,Authentication Failures
+45,Trigger Conditions,Specific Input 
+153,Root Causes,Improper Error State Handling
+153,Symptom,Crashes
+153,Trigger Conditions,Account Management Operation
+38,Root Causes,API Misuse
+38,Symptom,Authentication Failures
+38,Trigger Conditions,Repetitive Authentication Prompts 
+39,Root Causes,API Misuse
+39,Symptom,Authentication Failures
+39,Trigger Conditions,Repetitive Authentication Prompts 
+325,Root Causes,Lack of Necessary State or Stage
+325,Symptom,Authentication Failures
+325,Trigger Conditions,Account Management Operation
+325,Trigger Conditions,Triggered by Any Login Action 
+65,Root Causes,Lack of Necessary State or Stage
+65,Symptom,Account Management function breaks
+65,Trigger Conditions,Account Management Operation
+65,Trigger Conditions,Specific login approach
+201,Root Causes,API Misuse
+201,Symptom,Authentication Failures
+201,Trigger Conditions,Specific Input 
+237,Root Causes,Improper Encoding Algorithm
+237,Symptom,Authentication Failures
+237,Trigger Conditions,Specific Input 
+251,Root Causes,Improper Encoding Algorithm
+251,Symptom,Incorrect Navigation Flow
+251,Trigger Conditions,Specific Input 
+251,Trigger Conditions,Specific login approach
+225,Root Causes,Lack of Necessary State or Stage
+225,Symptom,Account Management function breaks
+225,Trigger Conditions,Account Management Operation
+314,Root Causes,Improper Error State Handling
+314,Symptom,Inaccurate error message displayed
+314,Trigger Conditions,Triggered by Any Login Action 
+329,Root Causes,Improper Error State Handling
+329,Symptom,Authentication Failures
+329,Trigger Conditions,Specific login approach
+371,Root Causes,Lack of Necessary State or Stage
+371,Symptom,Authentication Failures
+371,Trigger Conditions,Specific login approach
+305,Root Causes,API Misuse
+305,Symptom,Authentication Failures
+305,Trigger Conditions,Communicating with Cloud failure 
+31,Root Causes,API Misuse
+31,Symptom,Authentication Failures
+31,Trigger Conditions,Triggered by Any Login Action 
+238,Root Causes,Incorrect Branch or State Consequence
+238,Symptom,Account Management function breaks
+238,Trigger Conditions,Account Management Operation
+174,Root Causes,Lack of Necessary State or Stage
+174,Symptom,Authentication Failures
+174,Trigger Conditions,Account Management Operation
+145,Root Causes,Wrong Environment Dependency
+145,Symptom,Authentication Failures
+145,Trigger Conditions,Specific Device
+185,Root Causes,Improper Error State Handling
+185,Symptom,Inaccurate error message displayed
+185,Trigger Conditions,Communicating with Cloud failure 
+269,Root Causes,Improper Error State Handling
+269,Symptom,Authentication Failures
+269,Trigger Conditions,Communicating with Cloud failure 
+269,Trigger Conditions,Settings Change 
+165,Root Causes,Lack of Necessary State or Stage
+165,Symptom,Account Management function breaks
+165,Trigger Conditions,Account Management Operation
+194,Root Causes,Null Object Check Omission
+194,Symptom,Crashes
+194,Trigger Conditions,Specific Device
+109,Root Causes,Improper State Saving or Restoration
+109,Symptom,Incorrect Navigation Flow
+109,Trigger Conditions,Orientation change
+260,Root Causes,API Misuse
+260,Symptom,Authentication Failures
+260,Trigger Conditions,Specific Device
+260,Trigger Conditions,Specific login approach
+37,Root Causes,API Misuse
+37,Symptom,Authentication Failures
+37,Trigger Conditions,Specific login approach
+188,Root Causes,API Misuse
+188,Symptom,Authentication Failures
+188,Trigger Conditions,Specific login approach
+203,Root Causes,Improper Error State Handling
+203,Symptom,Inaccurate error message displayed
+203,Trigger Conditions,Specific login approach
+295,Root Causes,Improper Encoding Algorithm
+295,Symptom,Inaccurate error message displayed
+295,Trigger Conditions,Account Management Operation
+164,Root Causes,Improper Error State Handling
+164,Root Causes,Improper Error State Handling
+164,Symptom,Inaccurate error message displayed
+164,Symptom,Inaccurate error message displayed
+164,Trigger Conditions,Specific Input 
+164,Trigger Conditions,Specific Input 
+164,Trigger Conditions,Specific login approach
+236,Root Causes,API Misuse
+236,Symptom,Crashes
+236,Trigger Conditions,Account Management Operation
+236,Trigger Conditions,Specific login approach
+104,Root Causes,Incorrect Branch or State Consequence
+104,Symptom,Account Management function breaks
+104,Trigger Conditions,Account Management Operation
+41,Root Causes,API Misuse
+41,Symptom,Authentication Failures
+41,Trigger Conditions,Repetitive Authentication Prompts 
+219,Root Causes,Improper Error State Handling
+219,Symptom,Inaccurate error message displayed
+219,Trigger Conditions,Account Management Operation
+180,Root Causes,Wrong Environment Dependency
+180,Symptom,Authentication Failures
+180,Trigger Conditions,Specific Device
+162,Root Causes,Improper State Saving or Restoration
+162,Symptom,Authentication Failures
+162,Trigger Conditions,Account Management Operation
+162,Trigger Conditions,Communicating with Cloud failure 
+18,Root Causes,Improper Encoding Algorithm
+18,Symptom,Authentication Failures
+18,Trigger Conditions,Specific Input 
+50,Root Causes,Null Object Check Omission
+50,Symptom,Crashes
+50,Trigger Conditions,Specific Input 
+50,Trigger Conditions,Specific login approach
+278,Root Causes,Lack of Necessary State or Stage
+278,Symptom,Authentication Failures
+278,Trigger Conditions,Specific Device
+278,Trigger Conditions,Triggered by Any Login Action 
+288,Root Causes,API Misuse
+288,Symptom,Incorrect Navigation Flow
+288,Trigger Conditions,Triggered by Any Login Action 
+77,Root Causes,Improper State Saving or Restoration
+77,Symptom,Account Management function breaks
+77,Trigger Conditions,Account Management Operation
+351,Root Causes,Improper State Saving or Restoration
+351,Symptom,Crashes
+351,Trigger Conditions,Orientation change
+344,Root Causes,Improper Error State Handling
+344,Symptom,Inaccurate error message displayed
+344,Trigger Conditions,Specific login approach
+286,Root Causes,Lack of Necessary State or Stage
+286,Symptom,Incorrect Navigation Flow
+286,Trigger Conditions,Specific Input 
+286,Trigger Conditions,Specific login approach
+252,Root Causes,Incorrect Branch or State Consequence
+252,Symptom,Incorrect Navigation Flow
+252,Trigger Conditions,Specific login approach
+257,Root Causes,Wrong Environment Dependency
+257,Symptom,Crashes
+257,Trigger Conditions,Specific Device
+52,Root Causes,Lack of Necessary State or Stage
+52,Symptom,Incorrect Navigation Flow
+52,Trigger Conditions,Specific login approach
+42,Root Causes,API Misuse
+42,Symptom,Authentication Failures
+42,Trigger Conditions,Repetitive Authentication Prompts 
+360,Root Causes,API Misuse
+360,Symptom,Crashes
+360,Trigger Conditions,Specific login approach
+308,Root Causes,Lack of Necessary State or Stage
+308,Symptom,Authentication Failures
+308,Trigger Conditions,Specific Input 
+17,Root Causes,Improper State Saving or Restoration
+17,Symptom,Authentication Failures
+17,Trigger Conditions,Repetitive Authentication Prompts 
+139,Root Causes,Incorrect Branch or State Consequence
+139,Symptom,Authentication Failures
+139,Trigger Conditions,Account Management Operation
+111,Root Causes,Improper Error State Handling
+111,Symptom,Inaccurate error message displayed
+111,Trigger Conditions,Triggered by Any Login Action 
+107,Root Causes,Improper State Saving or Restoration
+107,Symptom,Incorrect Navigation Flow
+107,Trigger Conditions,Communicating with Cloud failure 
+107,Trigger Conditions,Specific Input 
+88,Root Causes,Null Object Check Omission
+88,Symptom,Crashes
+88,Trigger Conditions,Account Management Operation
+88,Trigger Conditions,Specific Input 
+159,Root Causes,Incorrect Branch or State Consequence
+159,Symptom,Authentication Failures
+159,Trigger Conditions,Specific Input 
+159,Trigger Conditions,Specific login approach
+115,Root Causes,Lack of Necessary State or Stage
+115,Symptom,Account Management function breaks
+115,Trigger Conditions,Account Management Operation
+115,Trigger Conditions,Specific Input 
+333,Root Causes,Improper Error State Handling
+333,Symptom,Authentication Failures
+333,Trigger Conditions,Specific Input 
+333,Trigger Conditions,Specific login approach
+40,Root Causes,API Misuse
+40,Symptom,Authentication Failures
+40,Trigger Conditions,Repetitive Authentication Prompts 
+74,Root Causes,API Misuse
+74,Symptom,Authentication Failures
+74,Trigger Conditions,Communicating with Cloud failure 
+74,Trigger Conditions,Specific Input 
+166,Root Causes,Incorrect Branch or State Consequence
+166,Symptom,Inaccurate error message displayed
+166,Trigger Conditions,Account Management Operation
+232,Root Causes,API Misuse
+232,Symptom,Account Management function breaks
+232,Trigger Conditions,Account Management Operation
+190,Root Causes,Wrong Environment Dependency
+190,Symptom,Authentication Failures
+190,Trigger Conditions,Communicating with Cloud failure 
+91,Root Causes,Improper State Saving or Restoration
+91,Symptom,Account Management function breaks
+91,Trigger Conditions,Specific login approach
+143,Root Causes,Lack of Necessary State or Stage
+143,Symptom,Authentication Failures
+143,Trigger Conditions,Specific login approach
+233,Root Causes,Wrong Environment Dependency
+233,Symptom,Authentication Failures
+233,Trigger Conditions,Specific Device
+63,Root Causes,Improper Encoding Algorithm
+63,Symptom,Authentication Failures
+63,Trigger Conditions,Communicating with Cloud failure 
+63,Trigger Conditions,Specific Input 
+340,Root Causes,Null Object Check Omission
+340,Symptom,Crashes
+340,Trigger Conditions,Triggered by Any Login Action 
+1,Root Causes,Improper State Saving or Restoration
+1,Symptom,Authentication Failures
+1,Trigger Conditions,Specific login approach
+339,Root Causes,Incorrect Branch or State Consequence
+339,Symptom,Incorrect Navigation Flow
+339,Trigger Conditions,Triggered by Any Login Action 
+85,Root Causes,API Misuse
+85,Symptom,Authentication Failures
+85,Trigger Conditions,Triggered by Any Login Action 
+20,Root Causes,Improper Error State Handling
+20,Symptom,Authentication Failures
+20,Trigger Conditions,Communicating with Cloud failure 
+355,Root Causes,Null Object Check Omission
+355,Symptom,Crashes
+355,Trigger Conditions,Orientation change
+355,Trigger Conditions,Specific Input 
+199,Root Causes,API Misuse
+199,Symptom,Authentication Failures
+199,Trigger Conditions,Communicating with Cloud failure 
+199,Trigger Conditions,Repetitive Authentication Prompts 
+306,Root Causes,Improper State Saving or Restoration
+306,Symptom,Crashes
+306,Trigger Conditions,Specific Device
+99,Root Causes,Lack of Necessary State or Stage
+99,Symptom,Account Management function breaks
+99,Trigger Conditions,Account Management Operation
+328,Root Causes,API Misuse
+328,Symptom,Crashes
+328,Trigger Conditions,Specific Input 
+83,Root Causes,API Misuse
+83,Symptom,Incorrect Navigation Flow
+83,Trigger Conditions,Triggered by Any Login Action 
+142,Root Causes,Lack of Necessary State or Stage
+142,Symptom,Crashes
+142,Trigger Conditions,Account Management Operation
+71,Root Causes,Wrong Environment Dependency
+71,Symptom,Authentication Failures
+71,Trigger Conditions,Specific Device
+346,Root Causes,Incorrect Branch or State Consequence
+346,Symptom,Authentication Failures
+346,Trigger Conditions,Specific login approach
+92,Root Causes,Null Object Check Omission
+92,Symptom,Crashes
+92,Trigger Conditions,Account Management Operation
+359,Root Causes,Null Object Check Omission
+359,Symptom,Crashes
+359,Trigger Conditions,Specific Input 
+359,Trigger Conditions,Specific login approach
+361,Root Causes,API Misuse
+361,Symptom,Crashes
+361,Trigger Conditions,Specific Device
+193,Root Causes,Improper State Saving or Restoration
+193,Symptom,Inaccurate error message displayed
+193,Trigger Conditions,Specific Input 
+82,Root Causes,Lack of Necessary State or Stage
+82,Symptom,Account Management function breaks
+82,Trigger Conditions,Account Management Operation
+121,Root Causes,Improper State Saving or Restoration
+121,Symptom,Incorrect Navigation Flow
+121,Trigger Conditions,Orientation change
+227,Root Causes,Improper State Saving or Restoration
+227,Symptom,Account Management function breaks
+227,Trigger Conditions,Account Management Operation
+239,Root Causes,Improper State Saving or Restoration
+239,Symptom,Account Management function breaks
+239,Trigger Conditions,Account Management Operation
+19,Root Causes,Null Object Check Omission
+19,Symptom,Crashes
+19,Trigger Conditions,Specific login approach
+363,Root Causes,API Misuse
+363,Symptom,Inaccurate error message displayed
+363,Trigger Conditions,Triggered by Any Login Action 
+301,Root Causes,Improper State Saving or Restoration
+301,Symptom,Incorrect Navigation Flow
+301,Trigger Conditions,Orientation change
+64,Root Causes,Incorrect Branch or State Consequence
+64,Symptom,Authentication Failures
+64,Trigger Conditions,Account Management Operation
+64,Trigger Conditions,Specific login approach
+294,Root Causes,Incorrect Branch or State Consequence
+294,Symptom,Incorrect Navigation Flow
+294,Trigger Conditions,Specific login approach
+214,Root Causes,Lack of Necessary State or Stage
+214,Symptom,Incorrect Navigation Flow
+214,Trigger Conditions,Settings Change 
+55,Root Causes,Null Object Check Omission
+55,Symptom,Crashes
+55,Trigger Conditions,Triggered by Any Login Action 
+46,Root Causes,Incorrect Branch or State Consequence
+46,Symptom,Authentication Failures
+46,Trigger Conditions,Settings Change 
+46,Trigger Conditions,Specific login approach
+186,Root Causes,Improper Error State Handling
+186,Symptom,Inaccurate error message displayed
+186,Trigger Conditions,Account Management Operation
+186,Trigger Conditions,Specific Input 
+62,Root Causes,Lack of Necessary State or Stage
+62,Symptom,Account Management function breaks
+62,Trigger Conditions,Account Management Operation
+62,Trigger Conditions,Communicating with Cloud failure 
+320,Root Causes,API Misuse
+320,Symptom,Authentication Failures
+320,Trigger Conditions,Communicating with Cloud failure 
+320,Trigger Conditions,Specific Input 
+331,Root Causes,Improper Error State Handling
+331,Symptom,Authentication Failures
+331,Trigger Conditions,Specific Input 
+317,Root Causes,Lack of Necessary State or Stage
+317,Symptom,Incorrect Navigation Flow
+317,Trigger Conditions,Triggered by Any Login Action 
+161,Root Causes,Improper Error State Handling
+161,Symptom,Authentication Failures
+161,Trigger Conditions,Specific login approach
+366,Root Causes,Improper State Saving or Restoration
+366,Symptom,Authentication Failures
+366,Trigger Conditions,Specific login approach
+302,Root Causes,Incorrect Branch or State Consequence
+302,Symptom,Incorrect Navigation Flow
+302,Trigger Conditions,Account Management Operation
+302,Trigger Conditions,Specific Input 
+218,Root Causes,API Misuse
+218,Symptom,Authentication Failures
+218,Trigger Conditions,Communicating with Cloud failure 
+218,Trigger Conditions,Specific login approach
+170,Root Causes,Null Object Check Omission
+170,Symptom,Authentication Failures
+170,Trigger Conditions,Specific login approach
+213,Root Causes,Improper State Saving or Restoration
+213,Symptom,Incorrect Navigation Flow
+213,Trigger Conditions,Orientation change
+151,Root Causes,Wrong Environment Dependency
+151,Symptom,Crashes
+151,Trigger Conditions,Triggered by Any Login Action 
+370,Root Causes,API Misuse
+370,Symptom,Authentication Failures
+370,Trigger Conditions,Triggered by Any Login Action 
+259,Root Causes,API Misuse
+259,Symptom,Authentication Failures
+259,Trigger Conditions,Specific Device
+259,Trigger Conditions,Specific login approach
+268,Root Causes,Null Object Check Omission
+268,Symptom,Crashes
+268,Trigger Conditions,Specific Device
+130,Root Causes,Improper State Saving or Restoration
+130,Symptom,Authentication Failures
+130,Trigger Conditions,Specific login approach
+80,Root Causes,Incorrect Branch or State Consequence
+80,Symptom,Authentication Failures
+80,Trigger Conditions,Specific login approach
+209,Root Causes,Improper State Saving or Restoration
+209,Symptom,Authentication Failures
+209,Trigger Conditions,Specific Input 
+126,Root Causes,Lack of Necessary State or Stage
+126,Symptom,Crashes
+126,Trigger Conditions,Specific Input 
+126,Trigger Conditions,Specific login approach
+338,Root Causes,API Misuse
+338,Symptom,Crashes
+338,Trigger Conditions,Triggered by Any Login Action 
+66,Root Causes,API Misuse
+66,Symptom,Authentication Failures
+66,Trigger Conditions,Specific login approach
+181,Root Causes,Improper Encoding Algorithm
+181,Symptom,Authentication Failures
+181,Trigger Conditions,Specific Input 
+284,Root Causes,Improper State Saving or Restoration
+284,Symptom,Incorrect Navigation Flow
+284,Trigger Conditions,Orientation change
+284,Trigger Conditions,Repetitive Authentication Prompts 
+309,Root Causes,Lack of Necessary State or Stage
+309,Symptom,Incorrect Navigation Flow
+309,Trigger Conditions,Repetitive Authentication Prompts 
+309,Trigger Conditions,Specific Input 
+352,Root Causes,Null Object Check Omission
+352,Symptom,Crashes
+352,Trigger Conditions,Triggered by Any Login Action 
+271,Root Causes,Lack of Necessary State or Stage
+271,Symptom,Authentication Failures
+271,Trigger Conditions,Account Management Operation
+128,Root Causes,Improper Error State Handling
+128,Symptom,Authentication Failures
+128,Trigger Conditions,Specific login approach
+184,Root Causes,Incorrect Branch or State Consequence
+184,Symptom,Incorrect Navigation Flow
+184,Trigger Conditions,Specific Input 
+76,Root Causes,Improper Encoding Algorithm
+76,Symptom,Authentication Failures
+76,Trigger Conditions,Specific Input 
+13,Root Causes,Wrong Environment Dependency
+13,Symptom,Authentication Failures
+13,Trigger Conditions,Specific Device
+156,Root Causes,Improper Encoding Algorithm
+156,Symptom,Authentication Failures
+156,Trigger Conditions,Specific Input 
+138,Root Causes,Improper Encoding Algorithm
+138,Symptom,Authentication Failures
+138,Trigger Conditions,Specific Input 
+335,Root Causes,Improper State Saving or Restoration
+335,Symptom,Incorrect Navigation Flow
+335,Trigger Conditions,Specific login approach
+120,Root Causes,Null Object Check Omission
+120,Symptom,Crashes
+120,Trigger Conditions,Settings Change 
+120,Trigger Conditions,Specific login approach
+49,Root Causes,Lack of Necessary State or Stage
+49,Symptom,Crashes
+49,Trigger Conditions,Settings Change 
+49,Trigger Conditions,Specific Device
+141,Root Causes,Incorrect Branch or State Consequence
+141,Symptom,Incorrect Navigation Flow
+141,Trigger Conditions,Specific login approach
+113,Root Causes,API Misuse
+113,Symptom,Authentication Failures
+113,Trigger Conditions,Specific login approach
+298,Root Causes,Improper Error State Handling
+298,Symptom,Account Management function breaks
+298,Trigger Conditions,Repetitive Authentication Prompts 
+298,Trigger Conditions,Specific login approach
+311,Root Causes,Improper Encoding Algorithm
+311,Symptom,Authentication Failures
+311,Trigger Conditions,Specific Input 
+175,Root Causes,Incorrect Branch or State Consequence
+175,Symptom,Incorrect Navigation Flow
+175,Trigger Conditions,Settings Change 
+54,Root Causes,Lack of Necessary State or Stage
+54,Symptom,Account Management function breaks
+54,Trigger Conditions,Account Management Operation
+54,Trigger Conditions,Specific login approach
+54,Trigger Conditions,Specific login approach
+289,Root Causes,Improper Error State Handling
+289,Symptom,Authentication Failures
+289,Trigger Conditions,Specific Input 
+289,Trigger Conditions,Specific login approach
+73,Root Causes,Incorrect Branch or State Consequence
+73,Symptom,Authentication Failures
+73,Trigger Conditions,Triggered by Any Login Action 
+94,Root Causes,Improper Encoding Algorithm
+94,Symptom,Authentication Failures
+94,Trigger Conditions,Specific Input 
+21,Root Causes,Improper Error State Handling
+21,Symptom,Crashes
+21,Trigger Conditions,Communicating with Cloud failure 
+69,Root Causes,Incorrect Branch or State Consequence
+69,Symptom,Authentication Failures
+69,Trigger Conditions,Specific login approach
+264,Root Causes,Improper State Saving or Restoration
+264,Symptom,Incorrect Navigation Flow
+264,Trigger Conditions,Orientation change
+123,Root Causes,Improper State Saving or Restoration
+123,Symptom,Crashes
+123,Trigger Conditions,Orientation change
+89,Root Causes,Improper Encoding Algorithm
+89,Symptom,Crashes
+89,Trigger Conditions,Specific Input 
+356,Root Causes,Null Object Check Omission
+356,Symptom,Account Management function breaks
+356,Trigger Conditions,Account Management Operation
+356,Trigger Conditions,Communicating with Cloud failure 
+122,Root Causes,Lack of Necessary State or Stage
+122,Symptom,Authentication Failures
+122,Trigger Conditions,Triggered by Any Login Action 
+150,Root Causes,Wrong Environment Dependency
+150,Symptom,Crashes
+150,Trigger Conditions,Specific Device
+81,Root Causes,Improper State Saving or Restoration
+81,Symptom,Crashes
+81,Trigger Conditions,Orientation change
+12,Root Causes,Improper Encoding Algorithm
+12,Symptom,Authentication Failures
+12,Trigger Conditions,Specific Input 
+279,Root Causes,API Misuse
+279,Symptom,Authentication Failures
+279,Trigger Conditions,Communicating with Cloud failure 
+4,Root Causes,API Misuse
+4,Symptom,Incorrect Navigation Flow
+4,Trigger Conditions,Specific Input 
+300,Root Causes,Improper State Saving or Restoration
+300,Symptom,Incorrect Navigation Flow
+300,Trigger Conditions,Orientation change
+324,Root Causes,Improper State Saving or Restoration
+324,Symptom,Authentication Failures
+324,Trigger Conditions,Account Management Operation
+324,Trigger Conditions,Repetitive Authentication Prompts 
+240,Root Causes,Improper Encoding Algorithm
+240,Symptom,Authentication Failures
+240,Trigger Conditions,Specific Input 
+7,Root Causes,Improper Error State Handling
+7,Symptom,Inaccurate error message displayed
+7,Trigger Conditions,Settings Change 
