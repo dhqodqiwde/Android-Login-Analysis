@@ -1,0 +1,69 @@
+# regex_patterns.txt
+# Format: YOUR_STATE_NAME:::REGEX_PATTERN
+# These state names should match the keys used in LoginDetectTest.java's validStateTransitions map.
+
+# --- Pre-Login Phase ---
+InitialState:::^(onCreate|onStart|onResume)$#com\.yourcompany\.yourapp\.(SplashActivity|EntryActivity|MainActivity)
+InitialState:::^(Application\.onCreate|initializeMainApplication|coldStartInit)$
+
+CheckingToken:::^(validateToken|checkAuthToken|verifySession|restoreSession|isTokenValid|getCachedAuthToken|performSilentLogin)$
+CheckingToken:::^(AccountManager\.getAuthToken|TokenRepository\.getCurrentToken|SessionManager\.getActiveSession)$
+
+# State representing successful login directly via a valid token
+LoggedIn_Via_Token:::^(onTokenValidationSuccess|navigateToHomeFromToken|autoLoginSucceeded)$
+
+# CredentialInput represents the UI state where user can input credentials.
+# API calls mapping to this state are usually about navigating to or preparing this screen.
+CredentialInput:::^(showLoginScreen|displayCredentialsView|promptUserLogin|onRequiresAuthentication|setupLoginFields)$
+CredentialInput:::^(onFocus|requestFocus)$#.*\.(UsernameField|PasswordField|EmailInput|UserIdText) # UI Element Focused
+CredentialInput:::^(setText|append|onTextChanged)$#android\.widget\.EditText # Generic, use with caution or more context
+
+EncodingCredentials:::^(encryptPassword|encodeCredentialsForApi|prepareAuthPayload|hashUserPassword|Base64\.encodeToString)$
+
+CredentialFormatError:::^(onInvalidEmailFormat|onPasswordPolicyViolation|displayInputValidationError|showCredentialFormatError)$#.*(Username|Password)
+CredentialFormatError:::^(InputFilter\.filter|TextValidator\.validate)$#.*(returned false|threw ValidationException)
+
+# --- Login Phase ---
+# Authenticating is usually triggered by a login button click or form submission.
+Authenticating:::^(onClick)$#.*(LoginButton|SignInButton|SubmitCredentials)
+Authenticating:::^(performLoginAction|initiateAuthentication|attemptUserSignIn|viewModel\.loginUser)$
+Authenticating:::^(LoginUseCase\.execute|AuthRepository\.loginWithCredentials|UserService\.authenticate)$
+
+# CheckingCredentials is the actual backend/API call for credential verification.
+CheckingCredentials:::^(AuthService\.checkCredentials|UserAuthenticator\.verifyPassword|ApiClient\.postLoginRequest|validateAccountPassword)$
+CheckingCredentials:::^(retrofit\.Call\.execute|okhttp3\.Call\.enqueue|HttpURLConnection\.connect)$#.*(login|auth|signin|token)
+
+# ServiceUnavailable_Auth can be general or specific to authentication service.
+ServiceUnavailable_Auth:::^(onNetworkError|handleServerUnreachable|displayServiceDownMessage|onAuthServiceFailure)$
+ServiceUnavailable_Auth:::^(retrofit\.Callback\.onFailure)$#java\.net\.(SocketTimeoutException|UnknownHostException|ConnectException)
+ServiceUnavailable_Auth:::^(VolleyError)$#com\.android\.volley\.(NoConnectionError|TimeoutError|ServerError)
+
+InvalidCredentials:::^(onLoginFailure|handleIncorrectCredentials|displayAuthenticationError|showInvalidUserOrPassword)$
+InvalidCredentials:::^(FirebaseAuthInvalidUserException|FirebaseAuthInvalidCredentialsException|ApiException)$#.*(401|403|INVALID_CREDENTIALS)
+
+CheckingMFASettings:::^(isMfaRequiredForUser|fetchMfaStatus|getUserAccountSettings)$#.*(twoFactor|mfa)
+CheckingMFASettings:::^(AccountFeatures\.isFeatureEnabled)$#MFA
+
+# LoggedIn_NoMFA is a success state if credentials are valid and MFA is not required.
+LoggedIn_NoMFA:::^(onLoginSuccessMfaNotRequired|proceedToAppWithoutMfa|completeLoginNoTwoFactor)$
+
+MFACodePending:::^(promptForMfaCode|showOtpInputScreen|navigateToMfaVerificationPage)$
+SendingMFACode:::^(sendMfaCodeViaSms|dispatchOtpEmail|TwoFactorService\.requestVerificationCode)$
+ServiceUnavailable_MFA_Send:::^(onMfaCodeSendError|handleOtpDispatchFailure|displayMfaServiceError_Send)$
+
+MFAVerification:::^(onClick)$#.*(VerifyMfaButton|SubmitOtpButton|ConfirmTwoFactorButton)
+MFAVerification:::^(submitMfaToken|validateOtpEntered|confirmTwoFactorAuthentication)$
+VerifyingMFA:::^(AuthService\.verifyMfaToken|MfaRepository\.checkOtp|UserAccount\.confirmMfaDevice)$
+ServiceUnavailable_MFA_Verify:::^(onMfaVerificationError|handleOtpValidationErrorServiceDown|displayMfaServiceError_Verify)$
+MFAError:::^(onInvalidMfaCode|handleIncorrectOtp|displayMfaAttemptFailed|showTwoFactorCodeError)$
+
+# --- Post-Login Phase ---
+# LoggedIn_WithMFA is a success state after MFA is successfully verified.
+LoggedIn_WithMFA:::^(onMfaVerificationSuccess|completeLoginWithMfa|navigateToHomeAfterMfa)$
+
+AppMainScreen:::^(navigateToDashboard|showHomeScreen|startAppMainActivity|onLoginCompleteAndVerified)$
+UserLogout:::^(performLogout|signOutUser|clearSessionAndLogout|AuthManager\.logout)$
+
+# General login success/failure if you want broader states (less precise than the specific ones above)
+# LoginSuccess:::^(onLoginSuccess|handleSuccessfulAuthentication|navigateToMainScreen|startMainActivity|finishLoginActivity)$
+# LoginFailure:::^(onLoginFailure|handleAuthenticationError|displayLoginErrorScreen)$

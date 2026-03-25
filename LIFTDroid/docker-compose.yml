@@ -1,0 +1,57 @@
+services:
+  android-login-detector:
+    build: .
+    platform: linux/amd64
+    network_mode: host
+    privileged: true
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 8G
+    volumes:
+      - .:/app
+      - /dev/bus/usb:/dev/bus/usb
+      - /var/run/usbmuxd:/var/run/usbmuxd
+      - /dev/kvm:/dev/kvm
+      - /dev/vhost-net:/dev/vhost-net
+      - /dev/net/tun:/dev/net/tun
+      - ./logs:/app/logs
+    environment:
+      - ANDROID_HOME=/opt/android-sdk
+      - ANDROID_SDK_ROOT=/opt/android-sdk
+      - PATH=/opt/android-sdk/platform-tools:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/emulator:${PATH}
+      - DISPLAY=${DISPLAY}
+      - ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL=10
+      - ANDROID_EMU_ENABLE_CRASH_REPORTING=0
+      - ANDROID_EMU_ENABLE_CONSOLE=0
+      - ANDROID_EMU_ENABLE_GRPC=0
+      - FRIDA_AGENT_MEMORY_LIMIT=2G
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+      - /dev/kvm:/dev/kvm
+    tmpfs:
+      - /tmp:exec,mode=1777
+      - /var/tmp:exec,mode=1777
+      - /root/.android/avd:exec,mode=1777
+    shm_size: 4g
+    ipc: host
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+      - SYS_PTRACE
+      - SYS_CHROOT
+      - SETUID
+      - SETGID
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    restart: no
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200m"
+        max-file: "5"
+
+    

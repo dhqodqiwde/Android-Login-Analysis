@@ -1,0 +1,9 @@
+potential_keywords = [
+            'authentication', 'authorization', 'signin', 'signup', 'oauth', 
+            'session', 'password', 'credential', 'access', 'refresh token',
+            'jwt', 'sso', '2fa', 'mfa', 'security', 'login page', 'logout',
+            'user management', 'user account', 'login failure', 'captcha',
+            'recovery', 'reset password', 'account lockout', 'secure login',
+            'identity verification', 'api key', 'access token', 'bearer token',
+            'auth token'
+        ]
